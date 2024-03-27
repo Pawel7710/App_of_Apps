@@ -52,7 +52,7 @@ pipeline {
                 }
             }
         }
-        }
+        
         
         stage('Selenium tests') {
             steps {
@@ -61,7 +61,7 @@ pipeline {
             }
         }
 
-
+    }
         post {
           always {
             sh "docker-compose down"
