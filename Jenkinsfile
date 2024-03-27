@@ -7,15 +7,15 @@ def frontendDockerTag=""
 
 
 pipeline {
-parameters {
-  string 'backendDockerTag'
-  string 'frontenDockerTag'
-}
 
     agent {
         label 'agent'
     }
 
+    parameters {
+    string 'backendDockerTag'
+    string 'frontendDockerTag'
+    }
     stages {
         stage('Get Code') {
             steps {
