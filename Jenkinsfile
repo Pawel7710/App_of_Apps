@@ -30,5 +30,6 @@ parameters {
                     currentBuild.description = "Backend: ${backendDockerTag}, Frontend: ${frontendDockerTag}"
                 }
             }
+        }
     }
 }
