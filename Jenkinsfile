@@ -35,7 +35,7 @@ pipeline {
         steps {
             sh "docker rm -f frontend backend"
             }
-        
+        }
         stage('Deploy application') {
             steps {
                 script {
