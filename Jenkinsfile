@@ -1,5 +1,5 @@
-def frontendImage="Pawel7710/frontend"
-def backendImage="Pawel7710/backend"
+def frontendImage="pawel7710/frontend"
+def backendImage="pawel7710/backend"
 def dockerRegistry=""
 def registryCredentials="dockerhub"
 def backendDockerTag=""
